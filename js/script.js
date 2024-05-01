@@ -1,7 +1,7 @@
 $(window).on("load", function() {
 
-	$(".loader .inner").fadeOut(300, function() {
-		$(".loader").fadeOut(400);
+	$(".loader .inner").fadeOut(100, function() {
+		$(".loader").fadeOut(200);
 	});
 
 })
@@ -18,7 +18,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.", "Data Analyst.", "Web Developer.", "Master's Candidate."],
+		strings: ["🏗️🛳️🙏 Build, ship and support software", "Observability.", "Distributed Systems.", "DevOps."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
